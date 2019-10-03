@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pokematch</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="assets/images/pokeball-two.png" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="assets/pokematch-logo.png" alt="pokematch logo" onclick="refreshPage()"/>
+    </header>
+    <div class="start-timer">
+      <!-- <button id="restart" type="submit" onClick="refreshPage()">Restart</button> -->
+      <div class="timer">
+        <label id="hour">00</label><label id="first colon">:</label
+        ><label id="minutes">00</label><label id="second colon">:</label
+        ><label id="seconds">00</label>
+      </div>
+      <!-- <button id="scores" type="submit" onClick="pokemon()">Pokémon of the Day</button> -->
+    </div>
+
+    <!-- <div id="endButton"></div> -->
+    <!-- <button id="endScreen" type="submit" onClick="refreshPage()">Play Again</button> -->
+
+    <div class="container">
+      <div class="ball">
+        <div class="center">
+          <button id="centerStart" type="submit" onClick="startGame()">Start
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- <button id="startScreen" type="submit" onClick="startGame()">Start</button> -->
+    
+
+  
+    <div id="game"></div>
+
+  
+    <footer>
+      <div class="trademark">Amazing Armadillos &trade;</div>
+    </footer>
+    <embed
+      name="crystalbattletower"
+      src="/assets/crystalbattletower.mp3"
+      loop="true"
+      hidden="true"
+      autostart="true"
+    />
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
